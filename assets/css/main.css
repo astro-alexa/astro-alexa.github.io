@@ -649,6 +649,9 @@ input, select, textarea {
 			background-image: url("../../images/ceers_bkg.png");
 			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 4px;
+			background-size: cover;          /* Make the image fill the element */
+    		background-repeat: no-repeat;    /* Prevent tiling */
+    		background-position: center;     /* Center the image */
 			content: '';
 			display: block;
 			height: 100%;
@@ -1659,4 +1662,5 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 
